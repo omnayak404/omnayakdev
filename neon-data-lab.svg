@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 560" role="img" aria-labelledby="title desc">
+  <title id="title">Om Nayak — Data Science student</title>
+  <desc id="desc">A neon three-dimensional data cube and chart on a dark blue background.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#060814"/>
+      <stop offset="0.5" stop-color="#0B1028"/>
+      <stop offset="1" stop-color="#160B31"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="72%" cy="42%" r="50%">
+      <stop offset="0" stop-color="#00F5D4" stop-opacity=".23"/>
+      <stop offset=".42" stop-color="#9D4EDD" stop-opacity=".12"/>
+      <stop offset="1" stop-color="#0B1020" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="front" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0CF9D8"/>
+      <stop offset="1" stop-color="#097EBC"/>
+    </linearGradient>
+    <linearGradient id="top" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#B681FF"/>
+      <stop offset="1" stop-color="#19E4FF"/>
+    </linearGradient>
+    <linearGradient id="side" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7E3BCF"/>
+      <stop offset="1" stop-color="#301768"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#00F5D4" stop-opacity="0"/>
+      <stop offset=".25" stop-color="#00F5D4"/>
+      <stop offset=".72" stop-color="#B681FF"/>
+      <stop offset="1" stop-color="#B681FF" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse">
+      <path d="M44 0H0V44" fill="none" stroke="#A6B7FF" stroke-opacity=".075"/>
+    </pattern>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="7" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="shadow" x="-40%" y="-40%" width="180%" height="180%">
+      <feDropShadow dx="0" dy="20" stdDeviation="18" flood-color="#000" flood-opacity=".5"/>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="560" fill="url(#bg)"/>
+  <rect width="1600" height="560" fill="url(#grid)"/>
+  <rect width="1600" height="560" fill="url(#halo)"/>
+  <path d="M0 456C265 402 452 496 678 439S1083 322 1600 391V560H0Z" fill="#00F5D4" fill-opacity=".035"/>
+  <path d="M0 458C265 404 452 498 678 441S1083 324 1600 393" fill="none" stroke="url(#line)" stroke-width="2"/>
+
+  <g fill="#00F5D4" filter="url(#glow)">
+    <circle cx="94" cy="126" r="3"/><circle cx="212" cy="388" r="3"/><circle cx="476" cy="104" r="3"/>
+    <circle cx="728" cy="444" r="3"/><circle cx="1008" cy="128" r="3"/><circle cx="1450" cy="224" r="3"/>
+  </g>
+
+  <g transform="translate(115 126)">
+    <text x="0" y="0" fill="#00F5D4" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" letter-spacing="5">DATA SCIENCE · STUDENT</text>
+    <text x="0" y="104" fill="#F0F6FF" font-family="Arial, Helvetica, sans-serif" font-size="82" font-weight="800" letter-spacing="-2">OM NAYAK</text>
+    <rect x="2" y="135" width="330" height="3" fill="url(#line)" filter="url(#glow)"/>
+    <text x="0" y="186" fill="#AEBCE7" font-family="Arial, Helvetica, sans-serif" font-size="25" letter-spacing=".2">Building signal from noise.</text>
+    <text x="0" y="225" fill="#7886B7" font-family="Arial, Helvetica, sans-serif" font-size="17">PYTHON  /  SQL  /  ML  /  VISUALIZATION</text>
+  </g>
+
+  <g transform="translate(1085 81)" filter="url(#shadow)">
+    <ellipse cx="224" cy="368" rx="224" ry="43" fill="#000" fill-opacity=".42"/>
+    <g transform="translate(32 12)">
+      <path d="M190 0 381 110 190 220 0 110Z" fill="url(#top)"/>
+      <path d="M0 110 190 220V441L0 331Z" fill="url(#front)"/>
+      <path d="M190 220 381 110V331L190 441Z" fill="url(#side)"/>
+      <path d="M190 0V220M0 110 190 220 381 110" fill="none" stroke="#E3D5FF" stroke-opacity=".6" stroke-width="2"/>
+      <g fill="none" stroke="#E8FFFF" stroke-opacity=".5" stroke-width="1.5">
+        <path d="M43 135 190 220 338 135"/><path d="M43 220 190 305 338 220"/><path d="M43 307 190 392 338 307"/>
+        <path d="M95 140V385M143 168V413M238 192V413M286 140V385"/>
+      </g>
+      <g filter="url(#glow)">
+        <circle cx="190" cy="111" r="10" fill="#F5F0FF"/>
+        <path d="M190 111 92 167M190 111 288 167M190 111V277" stroke="#F5F0FF" stroke-width="3"/>
+        <circle cx="92" cy="167" r="7" fill="#00F5D4"/><circle cx="288" cy="167" r="7" fill="#B681FF"/><circle cx="190" cy="277" r="7" fill="#19E4FF"/>
+      </g>
+    </g>
+  </g>
+
+  <g transform="translate(874 378)">
+    <text x="0" y="0" fill="#7F8BB8" font-family="Arial, Helvetica, sans-serif" font-size="13" letter-spacing="3">EXPERIMENT LOG</text>
+    <path d="M0 20H168" stroke="#40507B"/>
+    <path d="M0 20H112" stroke="#00F5D4" stroke-width="2"/>
+    <text x="0" y="49" fill="#DCE6FF" font-family="Arial, Helvetica, sans-serif" font-size="16">ask better questions</text>
+  </g>
+</svg>
